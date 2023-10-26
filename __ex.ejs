@@ -1,0 +1,195 @@
+<%- include partials/header.ejs %>
+
+  <%- include partials/main_nav.ejs %>
+
+
+    <!-- Main Content -->
+    <main class="container">
+      <div class="jumbotron">
+        <h3 class="display-4">Welcome to the <%= title %> page</h3>
+
+
+        <% if (title=="Home" ) { %>
+
+          <header>
+            <h2> Jinsung Park</h2>
+          </header>
+
+          <main>
+            <h3 class="#">Software developer & Game Programmer </h3>
+            <h4> HIGHLIGHTS OF QUALIFICATIONS </h4>
+            <p>
+            <ul>
+              <li>
+                An aspiring Software Developer
+              </li>
+              <br>
+              <li>
+                currently pursuing an Advanced Diploma in Game Programming
+              </li>
+              <br>
+              <li>
+                Holds graduate education in Electrical Engineering with experience in research design and innovation
+              </li>
+              <br>
+              <li>
+                Proficient at discovering and analyzing a variety of problems, using acute logic and reasoning skills
+              </li>
+              <br>
+            </ul>
+            </p>
+
+          </main>
+
+          <footer>
+            <small>
+              <i> Copyright © 2023, Web Application Development </i>
+              <br>
+              <i> Assignment1 - Portfolio</i>
+              <br>
+              <i>Jinsung Park - 301241866</i>
+              <br>
+              <a href="mailto:Jpark276@my.centennialcollege.ca">jpark276@my.centennialcollege.ca</a>
+            </small>
+          </footer>
+
+          <%} else if (title=="About" ) {%>
+
+            <header>
+              <h2> Jinsung Park</h2>
+            </header>
+
+            <main>
+              <h3 class="#">About me </h3>
+              <p>
+                An analytical and results-oriented student of software engineering technology,
+                specializing in Game Programming. Demonstrated technical acumen,
+                with proven skill in troubleshooting, problem-solving
+                and applying critical-thinking as a professional Engineer and Researcher.
+                Passionate about using technology for business solutions with proficiency
+                in web development and object-oriented programming.
+              </p>
+
+            </main>
+
+            <footer>
+              <small>
+                <i> Copyright © 2023, Web Application Development </i>
+                <br>
+                <i> Assignment1 - Portfolio</i>
+                <br>
+                <i>Jinsung Park - 301241866</i>
+                <br>
+                <a href="mailto:Jpark276@my.centennialcollege.ca">jpark276@my.centennialcollege.ca</a>
+              </small>
+            </footer>
+
+            <%} else if (title=="Products" ) {%>
+
+              <header>
+                <h2> Jinsung Park</h2>
+              </header>
+
+              <main>
+                <h3 class="#">ACADEMIC PROJECTS </h3>
+                <h4>Web Design - C#, HTML</h4>
+                <p>
+                <ul>
+                  <li>
+                    Designing responsive, user-centric marketing websites that real estate companies can advertise
+                    • Design a website that introduces the resort's various program activities
+                  </li>
+                </ul>
+
+                <h4>Software Requirements Specification</h4>
+                <ul>
+                  <li>
+                    • Application of object-oriented analysis, user experience design, technical review at the
+                    requirement
+                    model level
+                    • Produced a request to produce educational games as a team project
+                  </li>
+                </ul>
+                </p>
+
+              </main>
+
+              <footer>
+                <small>
+                  <i> Copyright © 2023, Web Application Development </i>
+                  <br>
+                  <i> Assignment1 - Portfolio</i>
+                  <br>
+                  <i>Jinsung Park - 301241866</i>
+                  <br>
+                  <a href="mailto:Jpark276@my.centennialcollege.ca">jpark276@my.centennialcollege.ca</a>
+                </small>
+              </footer>
+
+              <%} else if (title=="Services" ) {%>
+
+                <header>
+                  <h2> Jinsung Park</h2>
+                </header>
+
+                <main>
+                  <h3 class="#">Services </h3>
+
+                  <ul>
+                    <li>Programming: C#, HTML, Css, Javascript, Java, SQL, Unity </li>
+                    <li>Operating System: MS Windows, Linux, Unix </li>
+                    <li> Tools: Microsoft Office, GitHub,Visual Studio Code </li>
+                  </ul>
+                </main>
+
+                <footer>
+                  <small>
+                    <i> Copyright © 2023, Web Application Development </i>
+                    <br>
+                    <i> Assignment1 - Portfolio</i>
+                    <br>
+                    <i>Jinsung Park - 301241866</i>
+                    <br>
+                    <a href="mailto:Jpark276@my.centennialcollege.ca">jpark276@my.centennialcollege.ca</a>
+                  </small>
+                </footer>
+
+                <%} else if (title=="Contact" ) {%>
+
+                  <header>
+                    <h2> Jinsung Park</h2>
+                  </header>
+
+                  <main>
+                    <h3 class="#">Contact me </h3>
+
+                    <ul style="list-style-type:none">
+                      <li>North York, Ontario Canada</li>
+                      <li>jpark276@my.centennialcollege.ca</li>
+                      <li>(416)409-2222</li>
+                    </ul>
+                  </main>
+
+                  <footer>
+                    <small>
+                      <i> Copyright © 2023, Web Application Development </i>
+                      <br>
+                      <i> Assignment1 - Portfolio</i>
+                      <br>
+                      <i>Jinsung Park - 301241866</i>
+                      <br>
+                      <a href="mailto:Jpark276@my.centennialcollege.ca">jpark276@my.centennialcollege.ca</a>
+                    </small>
+                  </footer>
+
+                  <%} else {%>
+
+                    <MY HTML IS PUT HERE></MY>
+
+                    <% } %>
+      </div>
+    </main>
+
+    <%- include partials/bottom_nav.ejs %>
+
+      <%- include partials/footer.ejs %>
